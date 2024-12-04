@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class LoadFridge : MonoBehaviour
+public class LoadWardrobe : MonoBehaviour
 {
     public GameObject player;
     public void OnTriggerEnter(Collider other)
@@ -11,7 +10,8 @@ public class LoadFridge : MonoBehaviour
         {
             Destroy(gameObject);
             player.transform.position = new Vector3(this.transform.position.x + 1, this.transform.position.y + 1, this.transform.position.z + 1);
-            SceneManager.LoadScene("Fridge");
+            SceneManager.LoadScene("Wardrobe");
         }
     }
 }
+

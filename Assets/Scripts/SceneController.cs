@@ -3,6 +3,7 @@ using UnityEngine;
 public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
+    public bool isStoveLoaded = false;
 
     private void Awake()
     {

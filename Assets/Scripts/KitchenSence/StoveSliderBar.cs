@@ -21,6 +21,12 @@ public class StoveSliderBar : SliderBar
         {
             HandlePress();
         }
+        if(timerslider.value <= 0)
+        {
+            textToShow.text = "To late";
+            stopTimer = true;
+            StartCoroutine(ShowFeedbackAndReset());
+        }
     }
 
     private void HandlePress()
