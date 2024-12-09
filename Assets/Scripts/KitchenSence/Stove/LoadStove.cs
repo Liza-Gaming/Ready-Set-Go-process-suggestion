@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/**
+ * This script attached to object that is loading the stove scene.
+ */
 public class LoadStove : MonoBehaviour
 {
     public GameObject player;
