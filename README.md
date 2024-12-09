@@ -3,7 +3,7 @@ This is part of the project [Ready Set Go](https://github.com/Liza-Gaming/Ready-
 
 Demonstarating a process of a task from the game.
 
-See the [Stove scene](https://github.com/Liza-Gaming/FinalProject_Stove_Scene/tree/main/Assets/Scripts/KitchenSence)
+See the scripts in [Stove scene](https://github.com/Liza-Gaming/FinalProject_Stove_Scene/tree/main/Assets/Scripts/KitchenSence/Stove)
 
 [Game in Itch.io](https://lizachep.itch.io/final-game-v1)
 
